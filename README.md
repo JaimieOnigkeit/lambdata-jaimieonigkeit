@@ -23,8 +23,10 @@ df = DataFrame({"a":[1,2,3], "b":[4,5,6], "c":["x", "x", "z"]})
 list_func(df)
 
 #more_data
-Contains more_data_func function which adds n number of rows to a dataframe. 
-Currently configured to populate the new row with mean values for numbers, 
-mode values for non-numbers, and NaNs otherwise.
+Contains more_data_func function which takes an input (n)  and adds n number 
+of rows to a dataframe. 
+Currently configured to populate the new row with NaNs.
 
 #Example
+df = DataFrame({"a":[1,2,3], "b":[4,5,6], "c":["x", "x", "z"]})
+more_data_func(df)
