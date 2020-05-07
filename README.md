@@ -1,6 +1,6 @@
 # lambdata-jaimieonigkeit
 ##To Install:
-#TO DO
+#https://test.pypi.org/project/my-lambdata-jaimieonigkeit/
 
 ##Useage:
 #my_mod
