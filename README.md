@@ -9,7 +9,7 @@ Contains enlarge function which multiplies an input number by 100
 #Example
 x=11
 print(enlarge(x))
-
+        
 #list_to_column
 Contains list_func function which takes an input list and adds it as a column 
 to a specified dataframe
