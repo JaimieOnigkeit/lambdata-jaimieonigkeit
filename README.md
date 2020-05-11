@@ -2,7 +2,7 @@
 ##To Install:
 #pip install -i https://test.pypi.org/simple/my-lambdata-jaimieonigkeit
 
-##Useage:
+## Useage:
 #my_mod
 Contains enlarge function which multiplies an input number by 100
 
@@ -30,3 +30,4 @@ Currently configured to populate the new row with NaNs.
 #Example
 df = DataFrame({"a":[1,2,3], "b":[4,5,6], "c":["x", "x", "z"]})
 more_data_func(df)
+
