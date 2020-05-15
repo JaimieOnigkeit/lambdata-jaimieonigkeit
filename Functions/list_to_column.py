@@ -1,10 +1,13 @@
-# Single function to take a list, turn it into a series
-# and add it to a dataframe as a new column
 import pandas as pd
 
-
 def list_func(df):
-    # Get list
+    '''
+    Single function to take a list, turn it into a series
+    and add it to a dataframe as a new column
+    params: input pre-existing dataframe
+            user input: list of items for new column and heading
+            output same dataframe with given list inserted as a column
+    '''
     prompt = (input("Enter the items for the new column, seperated by commas"))
     prompt_list = prompt.split(",")
     col_name = (input("Enter the column header"))
@@ -17,3 +20,4 @@ def list_func(df):
     # Add to dataframe as new column
     df[col_name] = data
     print(df)
+

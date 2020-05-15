@@ -15,5 +15,5 @@ setup(
     license="MIT",
     url="https://github.com/JaimieOnigkeit/lambdata-jaimieonigkeit",
     # keywords="",
-    packages=find_packages()  # ["my_lambdata"]
+    packages=["lambdata-jaimieonigkeit"]
 )

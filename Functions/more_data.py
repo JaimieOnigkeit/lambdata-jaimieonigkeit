@@ -1,10 +1,13 @@
-# "Generate more data" function, takes dataframes and makes more rows
 import pandas as pd
 import numpy as np
-#df = DataFrame({"a":[1,2,3], "b":[4,5,6], "c":["x", "x", "z"]})
-
 
 def more_data_func(df):
+    '''
+    Creates new row(s) with NaNs
+    params: input exisiting dataframe
+    user input: number of rows to add
+    output dataframe with number of empty rows added
+    '''
     prompt = (input("How many new rows?"))
     n = int(prompt)
     columns = list(df)
